@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState }  from "react";
 import Die from "./Die";
 
-const DiceBox = (props) => {
+const DiceBox = ({numbers}) => {
     return (
         <div className="DiceBox">
-            <Die number={props[0]}/>
-            <Die number={props[1]}/>
-            <Die number={props[2]}/>
+            <Die number={numbers[0]}/>
+            <Die number={numbers[1]}/>
+            <Die number={numbers[2]}/>
+            <Die number={numbers[3]}/>
+            <Die number={numbers[4]}/>
         </div>
     )
 }

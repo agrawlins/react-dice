@@ -15,7 +15,6 @@ code {
 .all {
   margin-top: -50px;
   height: 1000px;
-  color: white;
   background-color: rgb(48, 48, 48);
 }
 
@@ -45,7 +44,6 @@ h1 {
 
 .header-contents {
   position: fixed;
-
   width: 100%;
   top: 0;
   align-items: center;
@@ -70,14 +68,21 @@ h1 {
 
 .Die {
   display: flex;
+  justify-content: center;
   align-self: center;
   margin: 15px;
-  height: 250px;
-  width: 250px;
-  border-radius: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
   border-style:outset;
   background-color: white;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.9);
+}
+
+.Die > h1 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 .diceButton {
